@@ -7,7 +7,7 @@ st.title('Car Purchase Prediction')
 st.write('This web app predicts the **Car Price**')
 
 # 讀取模型
-model = pickle.load(open('model_yu.pkl', 'rb'))
+model = pickle.load(open('model_car.pkl', 'rb'))
 
 # 用戶輸入
 gender = st.selectbox('Select Gender', ['Male', 'Female'])
